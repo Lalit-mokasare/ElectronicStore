@@ -45,7 +45,7 @@ public class UserController {
     /**
      * @param userDto
      * @return User
-     * @author Lalit Mokasre
+     * @author Lalit Mokasare
      * @apiNote Update User
      */
 
@@ -64,7 +64,7 @@ public class UserController {
 
     /**
      * @param userId
-     * @author Lalit Mokasasre
+     * @author Lalit Mokasare
      * @apiNote Delete User
      */
 
