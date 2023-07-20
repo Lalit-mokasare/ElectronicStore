@@ -50,19 +50,19 @@ public class UserController {
      */
 
 
-//    //get all
-//    @GetMapping
-//    public ResponseEntity<List<UserDto>> getAllUsers(
-//            @RequestParam(value = "pageNumber", defaultValue = "0", required = false) int pageNumber,
-//            @RequestParam(value = "pageSize", defaultValue = "10", required = false) int pageSize
-//    ) {
-//
-//        log.info("Initiating request to get all User");
-//        List<UserDto> allUsers = userServiceI.getAllUser(pageNumber, pageSize);
-//        log.info("Completed request of get all User");
-//
-//        return new ResponseEntity<List<UserDto>>(allUsers, HttpStatus.OK);
-//    }
+    //get all
+    @GetMapping
+    public ResponseEntity<List<UserDto>> getAllUsers(
+            @RequestParam(value = "pageNumber", defaultValue = "0", required = false) int pageNumber,
+            @RequestParam(value = "pageSize", defaultValue = "10", required = false) int pageSize
+    ) {
+
+        log.info("Initiating request to get all User");
+        List<UserDto> allUsers = userServiceI.getAllUser(pageNumber, pageSize);
+        log.info("Completed request of get all User");
+
+        return new ResponseEntity<List<UserDto>>(allUsers, HttpStatus.OK);
+    }
 //
 //    /**
 //     * @param userId
