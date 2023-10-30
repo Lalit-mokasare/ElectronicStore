@@ -1,6 +1,7 @@
 package com.lcwd.electronic.store.dtos;
 
 
+import com.lcwd.electronic.store.validate.ImageNameValid;
 import lombok.*;
 import org.aspectj.bridge.IMessage;
 
@@ -38,6 +39,6 @@ public class UserDto {
 
     //@Pattern
     //@Custom validator
-//   @ImageNameValid
+    @ImageNameValid
     private String imageName;
 }
